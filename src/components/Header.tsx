@@ -23,6 +23,7 @@ export const Header: React.FC<HeaderProps> = ({ onRequestService }) => {
     { label: 'Services', href: '#services' },
     { label: 'How It Works', href: '#how-it-works' },
     { label: 'Reviews', href: '#reviews' },
+    { label: 'Gallery', href: '#gallery' },
     { label: 'Contact', href: '#contact' },
   ];
 

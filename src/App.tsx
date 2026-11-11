@@ -9,6 +9,7 @@ import { HowItWorks } from './components/HowItWorks';
 import { WhyChooseALR } from './components/WhyChooseALR';
 import { AboutBusiness } from './components/AboutBusiness';
 import { Testimonials } from './components/Testimonials';
+import { WorkGallerySlideshow } from './components/WorkGallerySlideshow';
 import { FinalCTA } from './components/FinalCTA';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
@@ -93,7 +94,10 @@ export default function App() {
         {/* 10. Testimonials */}
         <Testimonials onRequestService={() => handleOpenModal('both')} />
 
-        {/* 11. Final Call To Action */}
+        {/* 11. Work Gallery Slideshow (Directly Under Reviews) */}
+        <WorkGallerySlideshow />
+
+        {/* 12. Final Call To Action */}
         <FinalCTA
           onRequestService={() => handleOpenModal('both')}
           onCallTeam={handleCallTeam}

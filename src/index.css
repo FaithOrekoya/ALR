@@ -27,3 +27,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
 }
+
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-marquee {
+  display: flex;
+  width: max-content;
+  animation: scrollMarquee 45s linear infinite;
+}
+
+.animate-scroll-marquee:hover {
+  animation-play-state: paused;
+}

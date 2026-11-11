@@ -92,6 +92,9 @@ export const Footer: React.FC<FooterProps> = ({ onRequestService }) => {
                 <a href="#reviews" className="hover:text-white transition-colors">Homeowner Reviews</a>
               </li>
               <li>
+                <a href="#gallery" className="hover:text-white transition-colors">Our Work Gallery</a>
+              </li>
+              <li>
                 <a href="#contact" className="hover:text-white transition-colors">Contact</a>
               </li>
             </ul>
